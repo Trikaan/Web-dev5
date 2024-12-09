@@ -1,0 +1,41 @@
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.text {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 1.7rem;
+  line-height: 1.6;
+  font-family: 'Times New Roman', Times, serif;
+  color: #555;
+}
+
+/* Стилі для плейсхолдера */
+.imageWrapper {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.profileImage {
+  width: 100%;
+  max-width: 300px;  /* Максимальна ширина фото */
+  height: auto; /* Пропорційне масштабування фото */
+  border-radius: 15%; /* Округляємо фото */
+  border: 3px solid #ddd; /* Товщина та колір рамки */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для ефекту */
+}
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+  .profileImage {
+    max-width: 250px; /* Зменшуємо максимальну ширину для мобільних пристроїв */
+  }
+}
